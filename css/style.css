@@ -1,0 +1,263 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: auto;
+}
+
+.promo {
+    height: 950px;
+    background: url('../fonts/Bouquets_Tulips_Colored_background_543937_1920x1080.jpg')center center/cover no-repeat;
+    padding: 50px 0 65 0;
+}
+
+.logo .logo_img {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+
+.logo .logo_text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 550px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: center;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: orangered;
+    font-family: "Roboto - Black";
+    font-size: 41px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.simple .title_big {
+    color: red;
+    font-family: "Roboto - Black";
+    font-size: 80px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    margin-top: 23px;
+    color: rgb(210, 57, 30);
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    text-align: center;
+}
+
+.promo .promo_text span {
+    color: green;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0px auto;
+    margin-top: 55px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #18ce07 0%, #3fda3a 100%);
+    color: red;
+    font-family: "Roboto Condenset";
+    font-size: 21px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.more .more_text {
+    color: rgb(255, 47, 47);
+    font-family: "Roboto - Thin";
+    font-size: 25px;
+    font-weight: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.more{
+    margin-top: 73px;
+}
+.more.more_text{
+    color: red;
+    font-family: "Roboto - Thin";
+    font-style: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.more .more_img  {
+    display: block;
+    margin: 0  auto;
+    margin-top: 15px;
+    height: 120px;
+    
+}
+
+.waiting {
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+.waiting .waiting_header, .finish .finish_header {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400px;
+    line-height: 12px;
+    text-transform: uppercase;
+text-align: center;
+}
+.finish .finish_header{
+    color: rgb(0, 0, 0);
+}
+
+
+.waiting .waiting_divider, .finish .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .wating_subheader {
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-family:Roboto;
+    font-style: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  
+  
+  
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px  0 107px 0;
+}
+.optimization  .optimization_header{
+    margin-left: 391px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+  
+    text-transform: uppercase;
+}
+.optimization  .optimization_text{
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-style: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+.optimization  .optimization_text span{
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+.optimization  .optimization_img{
+    position: absolute;
+    top: 48px;
+    left: -240px;
+    z-index: -1;
+}
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0 ;
+    background: url('../fonts/risunok.jpg') center center/cover no-repeat;
+}
+.finish .finish_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.finish .finish_wrapper .finish_item{
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-style: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.gift {
+    min-height: 628px;
+    padding: 86px 0 87px 0;
+    background-color: #efefef;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    margin-top: 42px;
+    color: #252525;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+}
